@@ -112,7 +112,7 @@ a {
 
 .firstblock {
     margin: 0px 10px 0px 20px;
-    padding: 40px;
+    padding: 10px;
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -137,6 +137,48 @@ a {
 #firstblocksubtitleunderline {
     text-decoration: underline dashed;
     text-underline-offset: 4px;
+}
+
+.skil {
+    margin: 20px 10px 0px 20px;
+    padding: 40px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 6px dashed black;
+}
+
+#skiltitle {
+    font-family: Onest;
+    text-align: center;
+    font-size: 32px;
+    margin: 10px auto;
+}
+
+#skillslist {
+    font-family: Onest;
+    font-size: 24px;
+    margin: 10px auto;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .skil {
+        margin: 20px 10px 0px 20px;
+        padding: 40px;
+    }
+
+    #skillslist {
+        flex-direction: column;
+        gap: 0px;
+    }
 }
 
 /* Footer styling */
