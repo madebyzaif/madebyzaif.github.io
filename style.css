@@ -1,224 +1,174 @@
 @font-face {
-    font-family: 'Onest';
-    src: url('fonts/Onest.ttf');
+  font-family: "BodaniModa";
+  src: url("fonts/BodoniModa.ttf") format("truetype"),
 }
 
-/* Remove underline from links and set color to black */
-
-a {
-    text-decoration: none;
-    color: black;
+@font-face {
+  font-family: "BodaniModaItalic";
+  src: url("fonts/BodoniModa_Italic.ttf") format("truetype"),
 }
 
-.header {
-    margin: 2%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+@font-face {
+  font-family: "MartianMono";
+  src: url("fonts/MartianMono.ttf") format("truetype"),
 }
 
-/* Responsive design for smaller screens */
 
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-        margin-top: 32px;
-    }
-
-    .rightside {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .leftside {
-        justify-content: center;
-        width: 100%;
-        margin: 2px 2px;
-    }
-
-    #logo {
-        margin: 0;
-    }
-}
-
-.leftside {
-    align-items: center;
-
-}
-
-.rightside {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#pixelbutton {
-    margin: 10px 10px;
-    font-family: Onest;
-}
-
-#notesbutton {
-    margin: 10px 10px;
-    font-family: Onest;
-}
-
-#aboutbutton {
-    margin: 10px 10px;
-    font-family: Onest;
-}
-
-#logo {
-    font-family: Onest;
-}
-
-/* Main content styling */
-
-.main {
-    width: 100%;
-}
-
-.banner {
-    width: 90%;
-    margin: 200px auto 200px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#bannerwelcome {
-    font-family: Onest;
-    text-align: center;
-    font-size: 64px;
-    margin: 10px auto;
-}
-
-#banneradditional {
-    font-family: Onest;
-    text-align: center;
-    font-size: 32px;
-    margin: 10px auto;
+html {
+    background-color: #C2C9D7;
 }
 
 .main {
-    width: 90%;
-    max-width: 800px;
-    display: block;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-    margin: 50px auto;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
-.firstblock {
-    margin: 0px 10px 0px 20px;
-    padding: 10px;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 6px dashed black;
-}
-
-#firstblocktitle {
-    font-family: Onest;
-    text-align: center;
-    font-size: 32px;
-    margin: 10px auto;
-}
-
-#firstblocksubtitle {
-    font-family: Onest;
-    text-align: center;
-    font-size: 24px;
-    margin: 10px auto;
-}
-
-#firstblocksubtitleunderline {
-    text-decoration: underline dashed;
-    text-underline-offset: 4px;
-}
-
-.skil {
-    margin: 20px 10px 0px 20px;
-    padding: 40px;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: 6px dashed black;
-}
-
-#skiltitle {
-    font-family: Onest;
-    text-align: center;
-    font-size: 32px;
-    margin: 10px auto;
-}
-
-#skillslist {
-    font-family: Onest;
-    font-size: 24px;
-    margin: 10px auto;
-    padding-left: 0px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    text-align: center;
-    justify-content: center;
-}
-
-@media (max-width: 768px) {
-    .skil {
-        margin: 20px 10px 0px 20px;
-        padding: 40px;
-    }
-
-    #skillslist {
-        flex-direction: column;
-        gap: 0px;
-    }
-}
-
-/* Footer styling */
-
-.footer {
-    border-top: 6px dashed black;
-    width: 100%;
-}
-
-#footertext {
-    font-family: Onest;
-    text-align: left;
-    font-size: 24px;
-    margin: 30px 10px 0px 50px;
-}
-
-.morelinks {
-    margin: 0px 50px 10px 10px;
-}
-
-#morelinkslink {
-    color: black;
-    font-family: Onest;
-    font-size: 20px;
+#bigboy {
+    font-family: "BodaniModa";
+    font-optical-sizing: none;
     font-weight: 500;
-    text-align: right;
-    margin: 8px 0px 8px 0px;
-}
-
-#glowingcarpenterboy {
-    color: black;
-    font-family: Onest;
+    font-size: 48px;
+    color: #051433;
     text-align: left;
-    font-size: 24px;
-    margin: 0px;
-    transition: text-shadow 0.5s;
+    margin-bottom: 0px;
 }
 
-#glowingcarpenterboy:hover {
-    color: black;
-    text-shadow: 0 0 5px rgb(164, 189, 228), 0 0 10px rgb(164, 189, 228), 0 0 15px rgb(164, 189, 228), 0 0 20px rgb(164, 189, 228), 0 0 30px rgb(164, 189, 228), 0 0 40px rgb(164, 189, 228), 0 0 55px rgb(164, 189, 228), 0 0 75px rgb(164, 189, 228);
-    cursor: default;
+.italic {
+    font-family: "BodaniModaItalic";
+    font-optical-sizing: none;
+    font-weight: 500;
+    font-size: 48px;
+    color: #051433;
+    text-align: left;
+}
+
+#bigboyslittleboy {
+    font-family: "MartianMono";
+    font-optical-sizing: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #051433;
+    text-align: left;
+    margin-top: 0px;
+}
+
+hr {
+    height: 2px;
+    width: 95%;
+    border: none;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    background-color: #051433;
+}
+
+.shortbio {
+    margin-left: 20px;
+}
+
+#darealshortbio {
+    font-family: "MartianMono";
+    font-optical-sizing: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #051433;
+    text-align: left;
+    margin-top: 0px;
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: "BodaniModa";
+    font-optical-sizing: none;
+    font-weight: 500;
+    font-size: 32px;
+    color: #051433;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.languagelist {
+    margin-left: 20px;
+    display: grid;
+}
+
+#languagetitle {
+    margin-bottom: 0px;
+}
+
+#lunchcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 0px;
+}
+
+.nest {
+    padding-left: 24px;
+    border-left: 2px #051433 solid;
+}
+
+.typelabel {
+    font-family: "BodaniModaItalic";
+    font-size: 26px;
+    font-optical-sizing: none;
+    font-weight: 600;
+    color: #051433;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.undertypelabel {
+    font-family: "MartianMono";
+    color: #051433;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+ul {
+    font-family: "MartianMono";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #051433;
+    list-style-type: none;
+    padding-left: 24;
+    margin-left: 0;
+    margin-top: 3px;
+    border-left: 2px #051433 solid;
+}
+
+.procrastination {
+    font-style: italic;
+}
+
+.noprocrastination {
+    font-style: italic;
+}
+
+#touchme {
+    margin-top: 0px;
+    margin-left: 20px;    
+}
+
+#emailtitle {
+    font-family: "BodaniModaItalic";
+    font-size: 26px;
+    font-optical-sizing: none;
+    font-weight: 600;
+    color: #051433;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+#feet {
+    margin-top: 0px;
+    margin-left: 20px;    
+}
+
+#writingonfeet {
+    font-family: "MartianMono";
+    font-size: 11px;
+    font-weight: 500px;
+    color: #051433;
 }
