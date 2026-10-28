@@ -18,9 +18,30 @@ html {
     background-color: #C2C9D7;
 }
 
+body {
+    margin: 0px;
+}
+
 .main {
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 46px;
+}
+
+a {
+    text-decoration: underline dashed;
+    text-underline-offset:  4px;
+    color: #051433;
+}
+
+.quicklink {
+    font-family: "MartianMono";
+    font-optical-sizing: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #051433;
+    text-align: left;
+    margin-top: 0px;
+    padding-right: 8px;
 }
 
 #bigboy {
@@ -54,7 +75,7 @@ html {
 
 hr {
     height: 2px;
-    width: 95%;
+    width: 100%;
     border: none;
     margin-top: 48px;
     margin-bottom: 48px;
@@ -62,7 +83,8 @@ hr {
 }
 
 .shortbio {
-    margin-left: 20px;
+    margin-left: 46px;
+    width: 85%;
 }
 
 #darealshortbio {
@@ -88,7 +110,7 @@ h2 {
 }
 
 .languagelist {
-    margin-left: 20px;
+    margin-left: 46px;
     display: grid;
 }
 
@@ -148,10 +170,10 @@ ul {
 
 #touchme {
     margin-top: 0px;
-    margin-left: 20px;    
+    margin-left: 46px;    
 }
 
-#emailtitle {
+#contacttype {
     font-family: "BodaniModaItalic";
     font-size: 26px;
     font-optical-sizing: none;
@@ -161,9 +183,25 @@ ul {
     margin-top: 8px;
 }
 
+#email {
+    padding-left: 0px;
+    border-left: none;
+}
+
+.sociallink {
+    font-family: "MartianMono";
+    font-optical-sizing: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #051433;
+    text-align: left;
+    margin-top: 0px;
+    padding-right: 8px;
+}
+
 #feet {
     margin-top: 0px;
-    margin-left: 20px;    
+    margin-left: 46px;    
 }
 
 #writingonfeet {
